@@ -30,9 +30,8 @@
   }
 
   img{
-      display: block;
-      margin: auto;
       
+      max-width: 100%;
   }
 
   footer{
@@ -77,3 +76,4 @@
         text-align: center;
       }
     }
+
