@@ -2,8 +2,8 @@
 
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  
+  
 }
 
 body {
@@ -12,10 +12,15 @@ body {
   line-height: 1.5;
   color: #333;
   background: #8C0D17;
+  margin: 0;
+  padding: 0;
+  
 }
 
 img {
   max-width: 100%;
+  margin: 1rem;
+  
 }
 
 h1,
@@ -25,7 +30,7 @@ h2 {
 
 
 .container {
-  max-width: 1100px;
+  width: 80%;
   margin: 0 auto;
   padding: 0 30px;
 }
@@ -35,6 +40,7 @@ background: #042940 ;
 color: #fff;
 height: 60px;
 border-bottom: #8C6D0F 3px solid;
+
 }
 
 .navbar .logo {
@@ -63,9 +69,6 @@ border-bottom: #000 3px solid;
   line-height: 1.2;
 }
 
-.header img {
-  max-width: 400px;
-}
 
 .header .container {
   display: flex;
@@ -112,15 +115,19 @@ footer{
   border-bottom: #8C6D0F 3px solid;
   }
 
-@media (max-width: 768px) {
+@media (max-width: 760px) {
   .header .container {
     flex-direction: column;
     padding-top: 20px;
     text-align: center;
+    width: 80%;
+    margin: auto;
+    
   }
 
   .boxes .container {
     display: block;
     text-align: center;
+    
   }
 }
